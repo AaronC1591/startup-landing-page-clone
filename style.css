@@ -94,12 +94,15 @@ body {
 section.introduction {
 	background-image: url(img/coffee-shop-banner.jpg);
 	background-size: cover;
-	padding: 15em 0;
+	padding-top: 100px;
+	background-position: 0 bottom;
+	height: 500px;
+	
 }
 div.intro-content .introducing-karma,
 div.intro-content .bring-wifi {
-	margin-top: -90px;
-	margin-left: 90px;
+	padding-top: 80px;
+	padding-left: 90px;
 }
 .intro-content .introducing-karma {
 	font-size: 3em;
@@ -114,19 +117,21 @@ p.bring-wifi {
 	color: #fff;
 	letter-spacing: 0.03em;
 	-webkit-font-smoothing: antialiased;
-	padding-top: 90px;
+	margin-top: -80px;
 }
 div.buttons {
 	text-align: center;
+
 }
 h3.learn-more {
-	font-size: 2em;
+	font-size: 1.5em;
 	font-family:'Roboto', sans-serif; 
 	color: #000;
 	letter-spacing: 0.03em;
 	-webkit-font-smoothing: antialiased;
 	background-color: #fff;
-	position: absolute;
+	background-size: 20px;
+	position: fixed;
 	text-shadow: none;
 	border-style: none;
 	border-radius: 4px;
