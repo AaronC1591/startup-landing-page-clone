@@ -119,23 +119,25 @@ p.bring-wifi {
 	-webkit-font-smoothing: antialiased;
 	margin-top: -80px;
 }
-div.buttons {
-	text-align: center;
+
+div.learn-more {
+
 
 }
-h3.learn-more {
-	font-size: 1.5em;
+button {
+	text-shadow: none;
+    border-style: none;
+    border-radius: 4px;
+    padding: 16px 26px;
+    line-height: 1.33;
+	font-size: 1em;
 	font-family:'Roboto', sans-serif; 
 	color: #000;
 	letter-spacing: 0.03em;
 	-webkit-font-smoothing: antialiased;
 	background-color: #fff;
-	background-size: 20px;
-	position: fixed;
-	text-shadow: none;
-	border-style: none;
-	border-radius: 4px;
-	padding: 16px 26px;
-	line-height: 1.33;
+	margin: 0 auto;
 
 }
+
+
