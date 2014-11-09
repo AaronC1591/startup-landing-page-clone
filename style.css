@@ -136,8 +136,14 @@ button {
 	letter-spacing: 0.03em;
 	-webkit-font-smoothing: antialiased;
 	background-color: #fff;
-	margin: 0 auto;
-
 }
 
+.cases .devices {
+    width: 33.3333333%;
+    display: inline-block;
+    /* styles to assist with debugging */
+    border: 1px solid black;
+    box-sizing: border-box;
+    height: 4em;
+}
 
