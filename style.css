@@ -153,18 +153,27 @@ section.cases h2 {
 	-webkit-font-smoothing: antialiased;
 	text-align: center;
 	padding-top: 60px;
+	padding-bottom: 20px;
 }
 .cases div.devices {
     width: 33.3333333%;
     display: inline-block;
     /* styles to assist with debugging */
-    border: 1px solid black;
+    border: 1px;
     box-sizing: border-box;
-    height: 4em;
+    height: 10em;
     margin: -4px;
 }
-img.devices {
-	height: 50px;
+section.cases img.devices {
+	height: 125px;
+	margin-left: 200px;
 }
-
+img.coffee {
+	height: 125px;
+	margin-left: 150px;
+}
+section.cases img.refill {
+	height: 125px;
+	margin-left: 150px;
+}
 
