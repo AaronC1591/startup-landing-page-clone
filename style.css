@@ -55,6 +55,9 @@ body {
 /* Navigation Section */
 .top-navigation {
     background-color: #fff;
+    position: fixed;
+	width: 100%;
+	z-index: 9999;
 }
 .top-navigation > .content {
 	width: 970px;
@@ -138,12 +141,30 @@ button {
 	background-color: #fff;
 }
 
-.cases .devices {
+section.cases {
+	background-color: #fff;
+}
+
+section.cases h2 {
+	font-size: 2.5em;
+	font-family:'Roboto', sans-serif; 
+	color: #000;
+	letter-spacing: 0.03em;
+	-webkit-font-smoothing: antialiased;
+	text-align: center;
+	padding-top: 60px;
+}
+.cases div.devices {
     width: 33.3333333%;
     display: inline-block;
     /* styles to assist with debugging */
     border: 1px solid black;
     box-sizing: border-box;
     height: 4em;
+    margin: -4px;
 }
+img.devices {
+	height: 50px;
+}
+
 
