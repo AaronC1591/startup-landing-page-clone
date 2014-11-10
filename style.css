@@ -141,19 +141,10 @@ button {
 	background-color: #fff;
 }
 
+/* Three Icon Secion */
+
 section.cases {
 	background-color: #fff;
-}
-
-section.cases h2 {
-	font-size: 2.5em;
-	font-family:'Roboto', sans-serif; 
-	color: #000;
-	letter-spacing: 0.03em;
-	-webkit-font-smoothing: antialiased;
-	text-align: center;
-	padding-top: 60px;
-	padding-bottom: 20px;
 }
 .cases div.devices {
     width: 33.3333333%;
@@ -164,16 +155,80 @@ section.cases h2 {
     height: 10em;
     margin: -4px;
 }
+
+section.cases h2,
+section.cases p {
+	font-family:'Roboto', sans-serif; 
+	color: #000;
+	letter-spacing: 0.03em;
+	-webkit-font-smoothing: antialiased;
+}
+
+div.devices p {
+	font-size: 1em;
+	padding-top: 50px;
+}
+
+section.cases h2.everyone-karma {
+	font-size: 2.5em;
+	padding-top: 60px;
+	padding-bottom: 60px;
+	text-align: center;
+}
+
 section.cases img.devices {
 	height: 125px;
-	margin-left: 200px;
+	margin-left: 300px;
 }
-img.coffee {
+div.devices h2.devices-internet {
+	padding-top: 80px;
+	font-size: 1.5em;
+	margin-left: 275px;
+	margin-right: -50px;
+	text-align: center;
+}
+
+div.devices p.devices-internet {
+	text-align: center;
+	margin-right: 0px;
+	margin-left: 280px;
+}
+
+section.cases img.coffee {
 	height: 125px;
-	margin-left: 150px;
+	margin-left: 100px;
+}
+
+div.devices h2.devices-coffee {
+	padding-top: 80px;
+	font-size: 1.5em;
+	margin-left: 80px;
+	margin-right: 150px;
+	text-align: center;	
+}
+
+div.devices p.devices-coffee {
+	text-align: center;
+	margin-right: 125px;
+	margin-left: 75px;
+	margin-top: 15px;
 }
 section.cases img.refill {
 	height: 125px;
-	margin-left: 150px;
+	margin-left: -75px;
+}
+
+div.devices h2.devices-refill {
+	padding-top: 80px;
+	font-size: 1.5em;
+	margin-left: -450px;
+	margin-top: 20px;
+	text-align: center;
+}
+div.devices p.devices-refill {
+	text-align: center;
+	margin-right: 300px;
+	margin-left: -115px;
+	margin-top: 15px;
 }
 
