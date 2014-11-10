@@ -179,6 +179,7 @@ section.cases h2.everyone-karma {
 section.cases img.devices {
 	height: 125px;
 	margin-left: 300px;
+	margin-bottom: 15px;
 }
 div.devices h2.devices-internet {
 	padding-top: 80px;
@@ -190,8 +191,9 @@ div.devices h2.devices-internet {
 
 div.devices p.devices-internet {
 	text-align: center;
-	margin-right: 0px;
+	margin-right: -50px;
 	margin-left: 280px;
+	line-height: 110%;
 }
 
 section.cases img.coffee {
@@ -212,6 +214,7 @@ div.devices p.devices-coffee {
 	margin-right: 125px;
 	margin-left: 75px;
 	margin-top: 15px;
+	line-height: 110%;
 }
 section.cases img.refill {
 	height: 125px;
@@ -230,5 +233,57 @@ div.devices p.devices-refill {
 	margin-right: 300px;
 	margin-left: -115px;
 	margin-top: 15px;
+	line-height: 110%;
 }
 
+/* Footer */
+footer {
+	background-color: #fff;
+
+}
+footer ul {
+	display: inline-block;
+	font-size: .9em;
+	font-family:'Roboto', sans-serif; 
+	letter-spacing: 0.03em;
+	-webkit-font-smoothing: antialiased;
+	width: 33.3333333%;
+	margin: -90px;
+	margin-top: 80px;
+	margin-bottom: 80px;
+	line-height: 155%
+
+}
+
+footer li.list-head {
+	color: #000;
+}
+
+footer li:hover {
+	color: #FF8F45;
+}
+
+footer li {
+	color: #888888;
+}
+
+footer ul.footer-company{
+	margin-left: 330px;
+}
+footer h2,
+footer p.karma-notes {
+	text-align: center;
+	font-family:'Roboto', sans-serif; 
+	letter-spacing: 0.03em;
+	-webkit-font-smoothing: antialiased;
+}
+
+footer h2 {
+	font-size: 1.05em;
+}
+
+footer p.karma-notes {
+	color: #888888;
+	font-size: .9em;
+	padding-bottom: 100px;
+}
