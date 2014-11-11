@@ -89,7 +89,7 @@ body {
     font-weight: 600;
 }
 .top-navigation .links li:hover{
-    color:blue;
+    color: #FF8F45;
 }
 
 /* Introduction Section */
@@ -124,7 +124,8 @@ p.bring-wifi {
 }
 
 div.learn-more {
-
+	margin-left: 650px;
+	margin-top: -50px;
 
 }
 button {
@@ -139,6 +140,10 @@ button {
 	letter-spacing: 0.03em;
 	-webkit-font-smoothing: antialiased;
 	background-color: #fff;
+}
+button:hover {
+	background-color: #FF8F45;
+	color: #FFF;
 }
 
 /* Three Icon Secion */
@@ -281,7 +286,9 @@ footer p.karma-notes {
 footer h2 {
 	font-size: 1.05em;
 }
-
+footer div.footer-social {
+	margin-left: 590px;
+}
 footer p.karma-notes {
 	color: #888888;
 	font-size: .9em;
