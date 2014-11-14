@@ -128,7 +128,7 @@ div.learn-more {
 	margin-top: -50px;
 
 }
-button {
+div.learn-more button {
 	text-shadow: none;
     border-style: none;
     border-radius: 8px;
@@ -141,7 +141,7 @@ button {
 	-webkit-font-smoothing: antialiased;
 	background-color: #fff;
 }
-button:hover {
+div.learn-more button:hover {
 	background-color: #FF8F45;
 	color: #FFF;
 }
@@ -150,6 +150,7 @@ button:hover {
 
 section.cases {
 	background-color: #fff;
+	padding-bottom: 200px;
 }
 .cases div.devices {
     width: 33.3333333%;
@@ -240,7 +241,59 @@ div.devices p.devices-refill {
 	margin-top: 15px;
 	line-height: 110%;
 }
+/* Buy it Now */
 
+section.buy-it-now {
+	background-image: url(img/buy-now-bg.jpg);
+	background-size: cover;
+	padding-bottom: 580px;
+	padding-top: 40px;
+
+}
+section.buy-it-now div.buy-karma {
+	margin-top: 100px;
+}
+section.buy-it-now div.buy-it-now-explain {
+	font-family:'Roboto', sans-serif; 
+	letter-spacing: 0.03em;
+	-webkit-font-smoothing: antialiased;
+}
+section.buy-it-now div.buy-it-now-explain h1 {
+	padding-left: 200px;
+	padding-right: 700px;
+	font-size: 2.5em;
+}
+
+section.buy-it-now div.buy-it-now-explain aside {
+	padding-left: 200px;
+	padding-right: 800px;
+	font-size: 1.1em;
+	line-height: 20px;
+	padding-top: 20px;
+}
+
+section.buy-it-now div.buy-now-button {
+	padding-left: 200px;
+	padding-top: 50px;
+
+}
+section.buy-it-now div.buy-now-button button.buy-now-button {
+	text-shadow: none;
+    border-style: none;
+    border-radius: 30px;
+    padding: 16px 26px;
+    line-height: 3px;
+	font-size: 1em;
+	font-family:'Roboto', sans-serif; 
+	color: #000;
+	letter-spacing: 0.03em;
+	-webkit-font-smoothing: antialiased;
+	background-color: #fff;
+}
+section.buy-it-now div.buy-now-button button:hover {
+	background-color: #FF8F45;
+	color: #FFF;
+}
 /* Footer */
 footer {
 	background-color: #fff;
