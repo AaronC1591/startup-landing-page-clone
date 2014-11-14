@@ -291,9 +291,12 @@ footer div.footer-social {
 	margin-left: 590px;
 }
 footer div.social-icons {
-	text-align: center;
+	margin-left: 550px;
 }
-
+footer div.social-icons li {
+	display: inline-block;
+	border-radius: 30px 30px 30px 30px;
+}
 
 footer p.karma-notes {
 	color: #888888;
