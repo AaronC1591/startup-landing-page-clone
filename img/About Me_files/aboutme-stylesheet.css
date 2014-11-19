@@ -1,0 +1,74 @@
+header {
+	background-image: url(img/lights.jpg);
+	border-radius: 100px;
+	line-height: 125px;
+}
+header div.mast {
+	font-family: 'Roboto', sans-serif; 
+	letter-spacing: 0.03em;
+	-webkit-font-smoothing: antialiased;
+	color: #FFF;
+}
+.masthead-intro {
+	text-align: center;
+	color: #FFF;
+	padding-top: 50px;
+	font-size: 1.5em;
+}
+
+.masthead-heading {
+	text-align: center;
+	margin-top: -100px;
+	font-size: 4em;
+	padding-bottom: 50px;
+
+}
+.masthead-heading:hover,
+.masthead-intro:hover {
+	color: #FF8F45;
+}
+
+/* Body */
+section h1{
+	font-family: 'Roboto', sans-serif; 
+	letter-spacing: 0.03em;
+	-webkit-font-smoothing: antialiased;
+	color: red;
+	text-align: center;
+	font-family: "Helvetica Neue"
+}
+section h2 {
+	font-family: 'Roboto', sans-serif; 
+	letter-spacing: 0.03em;
+	-webkit-font-smoothing: antialiased;
+	color: green;
+	text-align: center;
+}
+section p {
+	font-family: 'Roboto', sans-serif; 
+	letter-spacing: 0.03em;
+	-webkit-font-smoothing: antialiased;
+	text-align: center;
+	margin-left: 300px;
+	margin-right: 300px;
+}
+footer p {
+	text-align: center;
+	color: #FFF;
+}
+footer a {
+	text-decoration: none;
+	color: #FFF;
+}
+footer a:hover {
+	font-size: 2em;
+}
+footer {
+	background-image: url(img/lights.jpg);
+	border-radius: 100px;
+	line-height: 100px;
+	font-family: 'Roboto', sans-serif; 
+	letter-spacing: 0.03em;
+	-webkit-font-smoothing: antialiased;
+}
+

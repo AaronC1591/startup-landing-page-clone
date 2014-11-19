@@ -246,7 +246,8 @@ div.devices p.devices-refill {
 section.buy-it-now {
 	background-image: url(img/buy-now-bg.jpg);
 	background-size: cover;
-	padding-bottom: 580px;
+	width: 100%
+	padding-bottom: 650px;
 	padding-top: 40px;
 
 }
@@ -275,6 +276,7 @@ section.buy-it-now div.buy-it-now-explain aside {
 section.buy-it-now div.buy-now-button {
 	padding-left: 200px;
 	padding-top: 50px;
+	padding-bottom: 100px;
 
 }
 section.buy-it-now div.buy-now-button button.buy-now-button {
